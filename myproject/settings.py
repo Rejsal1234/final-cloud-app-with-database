@@ -66,6 +66,9 @@ TEMPLATES = [
                 'django.template.context_processors.media',
                 'django.contrib.messages.context_processors.messages',
             ],
+            'libraries': {
+            'custom_tags':'onlinecourse.template_filter'
+            }
         },
     },
 ]
